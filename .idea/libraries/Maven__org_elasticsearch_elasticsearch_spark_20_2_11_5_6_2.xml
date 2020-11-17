@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.elasticsearch:elasticsearch-spark-20_2.11:5.6.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Program Files/apache-maven-3.6.3/repository/org/elasticsearch/elasticsearch-spark-20_2.11/5.6.2/elasticsearch-spark-20_2.11-5.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Program Files/apache-maven-3.6.3/repository/org/elasticsearch/elasticsearch-spark-20_2.11/5.6.2/elasticsearch-spark-20_2.11-5.6.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Program Files/apache-maven-3.6.3/repository/org/elasticsearch/elasticsearch-spark-20_2.11/5.6.2/elasticsearch-spark-20_2.11-5.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
