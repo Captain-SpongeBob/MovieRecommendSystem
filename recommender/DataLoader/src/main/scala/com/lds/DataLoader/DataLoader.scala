@@ -19,7 +19,7 @@ case class Movie(mid: Int, name: String, descri: String, timelong: String,issue:
 case class Rating(uid: Int, mid: Int, score: Double, timestamp: Int)
 case class Tag(uid: Int, mid: Int, tag: String, timestamp: Int)
 case class MongoConfig(uri:String, db:String)
-case class ESConfig(httpHosts:String, transportHosts:String, index:String,clustername:String)
+case class ESConfig(httpHosts:String, transportHosts:String, index:String,clustername: String)
 
 object DataLoader {
   val MOVIE_DATA_PATH = "C:\\dev\\Progam Files\\MovieRecommendSystem\\recommender\\DataLoader\\src\\main\\resources\\movies.csv"

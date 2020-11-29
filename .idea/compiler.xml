@@ -8,13 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DataLoader" />
         <module name="StatisticsRecommender" />
+        <module name="StreamingRecommender" />
+        <module name="OfflineRecommender" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="13">
       <module name="DataLoader" target="1.8" />
       <module name="MovieRecommendSystem" target="1.8" />
+      <module name="OfflineRecommender" target="1.8" />
       <module name="recommender" target="1.8" />
       <module name="StatisticsRecommender" target="1.8" />
+      <module name="StreamingRecommender" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
