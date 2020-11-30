@@ -29,7 +29,7 @@ object ALSTrainer {
       .option("collection", MONGODB_RATING_COLLECTION)
       .format("com.mongodb.spark.sql")
       .load()
-      .as[MoiveRating]
+      .as[MovieRating]
       .map(rating => Rating(rating.uid, rating.mid, rating.score))
       .cache()
 

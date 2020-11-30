@@ -9,11 +9,17 @@
         <module name="DataLoader" />
         <module name="StatisticsRecommender" />
         <module name="StreamingRecommender" />
+        <module name="KafkaStreaming" />
+        <module name="ContentRecommender" />
         <module name="OfflineRecommender" />
+        <module name="businessServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="13">
+      <module name="businessServer" target="1.8" />
+      <module name="ContentRecommender" target="1.8" />
       <module name="DataLoader" target="1.8" />
+      <module name="KafkaStreaming" target="1.8" />
       <module name="MovieRecommendSystem" target="1.8" />
       <module name="OfflineRecommender" target="1.8" />
       <module name="recommender" target="1.8" />

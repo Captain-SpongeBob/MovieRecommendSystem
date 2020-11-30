@@ -83,7 +83,7 @@ object DataLoader {
     val movieWithTagsDF = movieDF.join(newTag, Seq("mid", "mid"), "left")
 
     //TODO 需要将新的Movie数据保存到ES中
-    storeDataInES(movieWithTagsDF)
+   // storeDataInES(movieWithTagsDF)
     // 关闭Spark
     spark.stop()
 
@@ -113,7 +113,7 @@ object DataLoader {
     tagDF
       .write
       .option("uri", config("mongo.uri"))
-      .option("collection", MONGODB_RATING_COLLECTION)
+      .option("collection", MONGODB_TAG_COLLECTION)
       .mode("overwrite")
       .format("com.mongodb.spark.sql")
       .save()

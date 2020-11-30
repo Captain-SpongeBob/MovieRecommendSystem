@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="businessServer:war">
+    <output-path>$PROJECT_DIR$/businessServer/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>businessServer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="BusinessServer.war">
+      <element id="artifact" artifact-name="businessServer:war exploded" />
+    </root>
+  </artifact>
+</component>

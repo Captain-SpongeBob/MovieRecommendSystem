@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/recommender/ContentRecommender/ContentRecommender.iml" filepath="$PROJECT_DIR$/recommender/ContentRecommender/ContentRecommender.iml" />
       <module fileurl="file://$PROJECT_DIR$/recommender/DataLoader/DataLoader.iml" filepath="$PROJECT_DIR$/recommender/DataLoader/DataLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recommender/KafkaStreaming/KafkaStreaming.iml" filepath="$PROJECT_DIR$/recommender/KafkaStreaming/KafkaStreaming.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MovieRecommendSystem.iml" filepath="$PROJECT_DIR$/.idea/MovieRecommendSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/recommender/OfflineRecommender/OfflineRecommender.iml" filepath="$PROJECT_DIR$/recommender/OfflineRecommender/OfflineRecommender.iml" />
       <module fileurl="file://$PROJECT_DIR$/recommender/StatisticsRecommender/StatisticsRecommender.iml" filepath="$PROJECT_DIR$/recommender/StatisticsRecommender/StatisticsRecommender.iml" />
       <module fileurl="file://$PROJECT_DIR$/recommender/StreamingRecommender/StreamingRecommender.iml" filepath="$PROJECT_DIR$/recommender/StreamingRecommender/StreamingRecommender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/businessServer/businessServer.iml" filepath="$PROJECT_DIR$/businessServer/businessServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/recommender/recommender.iml" filepath="$PROJECT_DIR$/recommender/recommender.iml" />
     </modules>
   </component>

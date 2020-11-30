@@ -167,8 +167,8 @@
     <orderEntry type="library" name="Maven: com.github.nscala-time:nscala-time_2.11:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.joda:joda-convert:1.2" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:casbah-query_2.11:3.1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.mongodb.spark:mongo-spark-connector_2.11:2.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb.spark:mongo-spark-connector_2.11:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.elasticsearch.client:transport:5.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.elasticsearch:elasticsearch:5.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:6.6.1" level="project" />

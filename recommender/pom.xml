@@ -17,6 +17,8 @@
         <module>StatisticsRecommender</module>
         <module>OfflineRecommender</module>
         <module>StreamingRecommender</module>
+        <module>KafkaStreaming</module>
+        <module>ContentRecommender</module>
     </modules>
 
     <dependencyManagement>
